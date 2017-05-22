@@ -1,0 +1,207 @@
+@CHARSET "ISO-8859-1";
+
+.display_box {
+	border-collapse: collapse;
+	border-spacing: 50px;
+}
+
+td {
+	padding: 25px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.link_decoration {
+	background-color: black;
+	border-radius: 5px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	color: white;
+	cursor: pointer;
+}
+
+.link_decoration a {
+	color: white;
+}
+
+.folder_name a {
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+	color: black;
+}
+
+.size {
+	color: black;
+	font-family: cambria;
+}
+
+.date {
+	color: black;
+	font-family: cambria;
+}
+
+.section1 {
+	float: left;
+	width: 20%;
+}
+
+.section2 {
+	float: left;
+	width: 60%;
+}
+
+.back {
+	text-align: center;
+}
+
+.back a {
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+}
+
+.new_folder {
+	margin: 10px;
+	text-align: center;
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+	color: black;
+	cursor: pointer;
+}
+
+.new_folder a {
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+	color: black;
+}
+
+.new_file {
+	margin: 10px;
+	text-align: center;
+}
+
+.new_file a {
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+}
+
+.section1_header {
+	text-align: center;
+	color: black;
+	font-family: cambria;
+	font-size: 30px;
+	color: black;
+}
+
+.section2_header {
+	color: black;
+	font-family: cambria;
+	font-size: 30px;
+}
+
+.input_text_box label {
+	margin: 10px;
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+}
+
+
+.submission {
+	margin: 10px;
+	background-color: black;
+	color: white;
+	width: 70px;
+	height: 30px;
+	border-radius: 10px;
+	text-align:center;
+	padding-top:5px;
+	cursor: pointer;
+	
+}
+
+
+.input_text_box input {
+	margin: 10px;
+	width: 200px;
+	border-radius: 5px;
+	height: 30px;
+}
+
+.input_text_box input:focus {
+	width: 200px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px 5px #888;
+	border-radius: 5px;
+}
+
+.input_submit_box input {
+	margin: 10px;
+	background-color: black;
+	color: white;
+	width: 100px;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.add_folder_box {
+	border: 2px solid black;
+	width: 400px;
+	margin: auto;
+	border-radius: 5px;
+}
+
+.new_folder_header {
+	margin: 200px 50px auto;
+	font-size: 30px;
+	font-family: cambria;
+	text-align: center;
+}
+
+.input_file_box input {
+	margin: 10px;
+	background-color: black;
+	color: white;
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.input_file_box label {
+	margin: 10px;
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+}
+
+.back_link {
+	text-align: left;
+	width: 400px;
+	margin: auto;
+}
+
+.back_link a {
+	text-align: left;
+	font-size: 20px;
+	color: black;
+	font-family: cambria;
+}
+
+.registration-link {
+	width: 400px;
+	margin: 10px auto;
+	
+	font-family: cambria;
+	font-size: 20px;
+}
+
+.registration-link a{
+	color:black;
+}
