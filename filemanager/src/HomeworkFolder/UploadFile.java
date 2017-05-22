@@ -159,8 +159,8 @@ public class UploadFile extends HttpServlet {
 		Connection c =null;
 		try {
 			String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu52";
-			String db_username = "cs3220stu52";
-			String db_password = "#k**ODW!";
+			String db_username = "";
+			String db_password = "";
 			Integer parent_id = null;
 			 c = DriverManager.getConnection(url, db_username, db_password);
 			Date d = new Date();

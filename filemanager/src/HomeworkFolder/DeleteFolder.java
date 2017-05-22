@@ -91,8 +91,8 @@ public class DeleteFolder extends HttpServlet {
 
 		try {
 			String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu52";
-			String db_username = "cs3220stu52";
-			String db_password = "#k**ODW!";
+			String db_username = "";
+			String db_password = "";
 			Integer parent_id = null;
 			Connection c = DriverManager.getConnection(url, db_username, db_password);
 
@@ -136,8 +136,8 @@ public class DeleteFolder extends HttpServlet {
 	public Folder parent_folder(HttpServletRequest request, Integer current_folder) {
 
 		String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu52";
-		String db_username = "cs3220stu52";
-		String db_password = "#k**ODW!";
+		String db_username = "";
+		String db_password = "";
 		Integer parent_folder = null;
 		// int user_id = (int) request.getSession().getAttribute("id");
 
